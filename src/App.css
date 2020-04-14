@@ -1,0 +1,69 @@
+/* https://www.palettable.io/4A260A-E9CFAA-F6F5DA-7C874F-0F1B13
+color-hex.com/color-palette/14359 */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700;800&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  --bg: #d9e3f5;
+  --textNormal: #676fb8;
+  --textTitle: #030087;
+  --textLink: #7388e8;
+  --hr: hsla(0, 0%, 0%, 0.2);
+  background-color: var(--bg);
+  transition: 0.5s;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: var(--textTitle);
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: var(--textTitle);
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: var(--textNormal);
+}
+
+button,
+a,
+ul {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  list-style: none;
+  text-decoration: none;
+  color: var(--textLink) !important;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: var(--textLink) !important;
+}
